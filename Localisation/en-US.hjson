@@ -1,0 +1,32 @@
+﻿Mods: {
+	Rivals: {
+		
+		
+		
+		#This is what displays during all of an NPC's happiness levels. Note that the localization key for these should always be "TownNPCMood.*NPCName*.*Mood*" or else it won't display properly.
+		TownNPCMood: {
+			Archer: {
+				Content: I feel pretty good right now.
+				NoHome: I would like a place to live.
+				LoveSpace: This place is really nice!
+				FarFromHome: I am lost
+				DislikeCrowded: I don't like it when there are so many people around me.
+				HateCrowded: I am crowded. I hate this
+				LikeBiome: "{BiomeName} is a nice place to wander around."
+				LoveBiome: "I love {BiomeName}."
+				DislikeBiome: "It's way too cold in {BiomeName}, I don't like it AT ALL"
+				HateBiome: "I hate being in{BiomeName}."
+				LikeNPC: "I like {NPCName} he is a cool guy"
+				LoveNPC: "{NPCName} is such a cool person!"
+				DislikeNPC: '''"{NPCName} is annoying. I really hate him for his dumb jokes"'''
+				HateNPC: "Why is {NPCName} so rude? does he have no manners? and why does he kill animals. thats cruel."
+			}
+		}
+
+		MessageInfo: {
+			UnstablePylonIsOff: "That Unstable Pylon is currently inactive."
+			NearbyUnstablePylonIsOff: "The nearby Unstable Pylon is currently inactive."
+		}
+	
+	}
+}
